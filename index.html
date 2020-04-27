@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en">  
+
+    <head> 
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!--cdn link to slicknav css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"> 
+        <!--link to styles.css-->
+        <link rel="stylesheet" href="styles.css" type="text/css">  
+        <!---link to google fonts--> 
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet"> 
+        <!---link to logo sheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"> 
+        <!--cdn link to jquery--> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <!---cdn link to slicknav jquery--> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script> 
+     
+        <script type="text/javascript"> 
+         $(document).ready(function () {  
+             $("#defnavmenu") .slicknav ( { pretendto: "#mobilemenu"}); 
+         }); 
+        </script>
+     </head>   
+
+     <body> 
+
+        <header>  
+          <!---  <figure> <img src="IrishWrecksTitle.gif" width="75%" height="10%" alt=IrishShipWrecks></figure> --> 
+          <figure> <img id="logo" src="shipwrecklogo.png" width="20%" height="20%" alt=shipwreck></figure>
+            <h1><i class="far fa-compass"></i> A Diver's Guide To The Ship Wrecks Around Ireland </h1> 
+                <!--empty nav element that rn is acting as a placeholder for the slicknav--> 
+                <nav id="mobilemenu"></nav>  
+           
+                <!---Default Menu -->  
+                <nav id="defnavmenu">
+                    <ul> 
+                        <li><a href="Updates.html">Updates</a></li>
+                        <li><a href="#">Recognition</a></li> 
+                        <li><a href="#">Wrecks</a>  
+                            <ul> 
+                                <li><a href="#">By County</a></li>
+                                <li><a href="#">By Name</a></li>  
+                            </ul>
+                        </li> 
+                        <li><a href="contact.html">Contact</a></li> 
+                    </ul> 
+                </nav>  
+           </header>    
+
+           <left> 
+               <h3>Overview</h3> 
+               <p>
+                In an effort to provide reliable, exact, and up to date information to divers who are intrigued by the Ship Wrecks around 
+            the great Country of Ireland, this website is available. On this platform, you can find maps, illustrations, new findings, and also report findings.
+        To report new findings, please use our contact tab, and we will verify your information, but you will be rewarded credit. 
+    We wish you the best of luck on wherever this journey takes you-please use this information as you wish! This websites informations is award winning.
+     Irish Ship Wrecks has received the Gold Site Award by The Maritime Web Awards, as well as a Nautical Award issued by the Lagoon View Yacht Club. We take
+    credibility very seriously here at Irish Ship Wrecks, and we hope this is useful for your journeys.  </p>  
+    <figure> <img id="award" src="Lagoon_award.jpg" alt="lagoon award"> <img id="award1" src="golda.jpg" alt="Maritime award"></figure> 
+     
+
+           </left> 
+
+           <right> 
+               <h3>Conditions Of Use</h3> 
+               <p> The information contained within this award winning Web Site is specifically designed as a guide for recreational divers and is totally free. It is as accurate as possible at the time of publication, but should not be construed as an invitation to dive any particular wreck.
+
+                If you undertake to dive any wreck(s) it is assumed that- (i) you are suitably trained to do so, (ii) you have permission from the owner, (iii) you will abide by the laws of wreck ownership, and those of salvage, within the country whose coastal waters the wreck resides. 
+                
+                No liability will be accepted for any loss, accident or subsequent prosecution resulting from the use / misuse of the information or advice contained within these pages.
+                
+                Reproduction of any part of this site in any form, other than for your own use, will result in immediate prosecution under the laws of Copyright of the country in which you reside.
+                
+                You may link this site to your own website, but please, only via the the address below -
+                
+                http://www.irishwrecksonline.net/index/ </p>  
+
+              <a href="DesignSpec.pdf"> <img id="designspec" src="DesignSpec.pdf" alt="Design Spec"></a>
+              
+
+
+           </right> 
+
+           <footer>  
+               <p> Compiled by: Randal Armstrong </p>
+               <figure> <img id="Copyright" src= "CopyrightLinePageBottom.gif" width="100%" height="30%"> </figure> 
+        </footer>
+
+     </body>
